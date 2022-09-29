@@ -5,7 +5,7 @@ function Login({ setIsLoggedIn }) {
   const history = useHistory();
   const [formData, setFormData] = useState({
     username: "",
-    password: "",
+    password: ""
   });
 
   function handleChange(e) {
